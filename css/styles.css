@@ -1,4 +1,13 @@
 /********************
+IMPORTS - slows down site loading
+*******************/
+@import url('accessibility.css');
+@import url('card-styles.css');
+/*@import url('layout.css');*/
+@import url('reset.css');
+
+
+/********************
 YOUR STYLES
 *******************/
 
