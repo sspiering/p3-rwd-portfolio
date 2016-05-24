@@ -3,15 +3,19 @@ IMPORTS - slows down site loading
 *******************/
 @import url('accessibility.css');
 @import url('card-styles.css');
-/*@import url('layout.css');*/
 @import url('reset.css');
 
 
 /********************
 YOUR STYLES
 *******************/
+.lg-backdrop {
+  background-color: yellow;
+}
 
-
+.lg-image {
+  border-radius: 10px;
+}
 
 
 /********************
@@ -19,16 +23,16 @@ MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
-
+@media (min-width: 75em) {
+ 
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (min-width: 48em) {
 
 }
 
 /* Mobile */
-@media (min-width: 480px) {
+@media (min-width: 30em) {
 
 }
