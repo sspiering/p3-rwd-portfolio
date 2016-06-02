@@ -29,8 +29,22 @@ YOUR STYLES
   padding: 1em;
   color: white;
   background: black;
-  
 }
+
+h1 {
+	font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+p {
+  	font-family: 'Tinos', Times, serif;
+  text-align: center;
+}
+
 /********************
 MEDIA QUERIES
 *******************/
