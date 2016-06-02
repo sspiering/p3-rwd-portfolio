@@ -1,16 +1,18 @@
 /* Card Based Layout - Base styles */
 
 body {
-	background: hsl(0, 0%, 90%);
+	background: white;
 }
 
 .masthead {
-	background: hsl(0, 0%, 20%);
+	background: #ffea01;
+    height: 150px;
 }
 
 .site-title {
-	color: white;
+	color: #ffea01;
 }
+
 
 .card {
 	background: white;
@@ -23,17 +25,20 @@ body {
 }
 
 .card a:hover {
-	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+	box-shadow: 2px 2px 4px hsl(0, 0%, 70%);
 }
 
 .card-content {
-	padding: 1.4em;
+  padding: 1.4em;
+  border: 2px;
 }
 
 .card-content h2 {
 	margin-top: 0;
 	margin-bottom: .5em;
 	font-weight: normal;
+    text-align: center;
+    color: gray;
 }
 
 .card-content p {

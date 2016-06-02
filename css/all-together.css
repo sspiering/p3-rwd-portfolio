@@ -1,0 +1,17 @@
+.masthead {
+    background: #ffea01;
+    height: 150px;
+    margin-bottom: 2%;
+}
+
+.site-title {
+    color: black;
+}
+
+.main-area {
+    padding: 2em;
+}
+
+.sidebar {
+    background: white;
+}

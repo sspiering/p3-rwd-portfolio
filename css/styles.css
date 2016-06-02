@@ -3,6 +3,10 @@ IMPORTS - slows down site loading
 *******************/
 @import url('accessibility.css');
 @import url('card-styles.css');
+@import url('holy-grail.css');
+@import url('masthead.css');
+@import url('typography.css');
+@import url('all-together.css');
 @import url('reset.css');
 
 
@@ -10,14 +14,23 @@ IMPORTS - slows down site loading
 YOUR STYLES
 *******************/
 .lg-backdrop {
-  background-color: yellow;
+  background-color: #ffea01;
 }
 
 .lg-image {
   border-radius: 10px;
 }
 
-
+.footer-area {
+  text-align: center;
+  font-size: .75em;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 1em;
+  color: white;
+  background: black;
+  
+}
 /********************
 MEDIA QUERIES
 *******************/
